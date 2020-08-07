@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="query_suggestions">
+
+        <item>Android</item>
+
+        <item>iOS</item>
+
+        <item>JavaScript</item>
+
+        <item>C#</item>
+
+        <item>Python</item>
+
+        <item>C</item>
+
+        <item>C++</item>
+
+        <item>PHP</item>
+
+        <item>Go</item>
+
+        <item>Perl</item>
+
+        <item>Bash</item>
+
+        <item>Lua</item>
+
+        <item>R</item>
+
+        <item>TCL</item>
+
+        <item>Haskell</item>
+
+        <item>Objective C</item>
+
+        <item>Swift</item>
+
+        <item>Kotlin</item>
+
+        <item>jQuery</item>
+
+        <item>Web</item>
+
+        <item>Testing</item>
+
+        <item>CookBook</item>
+
+        <item>IDEA下载与安装</item>
+
+        <item>Arduino</item>
+
+
+        <item>UI设计</item>
+
+        <item>Microsoft</item>
+
+        <item>Application</item>
+
+        <item>Development</item>
+
+        <item>JUnit</item>
+
+        <item>SQL Server下载与安装</item>
+
+        <item>Beagle</item>
+
+        <item>Java环境变量配置</item>
+
+        <item>eclipse安装教程</item>
+
+        <item>MySQL下载与安装教程视频</item>
+
+        <item>PS安装教程</item>
+
+        <item>IDAE下载与安装教程</item>
+
+        <item>MySQL环境变量配置</item>
+
+        <item>PS下载网址与安装教程</item>
+
+        <item>Android Studio下载网与安装教程</item>
+
+        <item>Matlab下载网址与安装教程</item>
+
+        <item>AI下载网址与安装教程</item>
+    </string-array>
+
+</resources>
