@@ -1,9 +1,9 @@
 package com.example.mylibrary;
 
 public class ShiPinWeiZhi {
-    public int weizhi;
     public String ChooseWeiZhi;
     public void WeiZhiXuanZhe(){
+        int weizhi;
         switch (ChooseWeiZhi){
             case "java环境变量win10":
                 weizhi = 0;
