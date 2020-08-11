@@ -1,8 +1,8 @@
 package com.example.mylibrary;
 
 public class ShiPinWeiZhi {
-    public void WeiZhiXuanZhe(String ChooseWeiZhi){
-        int weizhi;
+    public int WeiZhiXuanZhe(String ChooseWeiZhi){
+        Integer weizhi = null;
         switch (ChooseWeiZhi){
             case "java环境变量win10":
                 weizhi = 0;
@@ -37,5 +37,6 @@ public class ShiPinWeiZhi {
             default:
                 break;
         }
+        return weizhi;
     }
 }
