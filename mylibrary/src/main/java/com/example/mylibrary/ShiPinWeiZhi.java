@@ -1,7 +1,7 @@
 package com.example.mylibrary;
 
 public class ShiPinWeiZhi {
-    public int WeiZhiXuanZhe(String ChooseWeiZhi){
+    public Integer WeiZhiXuanZhe(String ChooseWeiZhi){
         Integer weizhi = null;
         switch (ChooseWeiZhi){
             case "java环境变量win10":
