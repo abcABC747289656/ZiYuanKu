@@ -1,7 +1,6 @@
 package com.example.mylibrary;
 
 public class ShiPinWeiZhi {
-    String b;
     public Integer WeiZhiXuanZhe(String ChooseWeiZhi){
         Integer weizhi = null;
         switch (ChooseWeiZhi){
