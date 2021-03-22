@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginByNameActivity">
+
+    <ImageView
+        android:id="@+id/iv_show_loginByName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout1"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/et_loginByName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入手机号/邮箱号"
+                android:textSize="16sp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/et_loginByName_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:layout_toLeftOf="@+id/ib_loginByName"
+                android:textSize="16sp"/>
+
+            <ImageButton
+                android:id="@+id/ib_loginByName"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/login"
+                android:background="#00000000"
+                android:foreground="@drawable/ripple"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btn_loginByCode"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="20dp"
+                android:text="验证码登录"
+                android:textSize="18sp"
+                android:background="#00000000"
+                android:foreground="@drawable/ripple"/>
+
+            <Button
+                android:id="@+id/btn_forget_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp"
+                android:text="忘记密码"
+                android:textSize="18sp"
+                android:background="#00000000"
+                android:foreground="@drawable/ripple"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

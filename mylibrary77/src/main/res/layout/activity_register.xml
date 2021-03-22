@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/et_register_account"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入手机号/邮箱"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btn_register_getCode"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:foreground="@drawable/ripple"
+            android:text="获取验证码"
+            android:gravity="center"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/et_register_code"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入验证码"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/et_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="#00000000"
+        android:foreground="@drawable/ripple"
+        android:text="注册"
+        android:textSize="21sp"/>
+
+</LinearLayout>
